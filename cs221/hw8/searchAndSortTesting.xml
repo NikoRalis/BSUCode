@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search and Sort Testing">
+  <test name="SearchAndSortTest">
+      <classes>     
+      <class name="SearchAndSortTest"/>
+    </classes>
+  </test> <!-- SearchAndSortTest -->
+</suite> <!-- Search and Sort Testing -->

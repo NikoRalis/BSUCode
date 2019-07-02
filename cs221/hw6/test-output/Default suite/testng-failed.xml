@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test_13">
+        <methods>
+          <include name="testAdd_validIndex"/>
+          <include name="testLast"/>
+          <include name="testAdd_invalidIndex"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testRemove_validElement"/>
+          <include name="testIterator"/>
+          <include name="testRemove_invalidIndex"/>
+          <include name="testGet_invalidIndex"/>
+          <include name="testSet_invalidIndex"/>
+          <include name="testFirst"/>
+          <include name="testSet_validIndex"/>
+          <include name="testRemoveLast"/>
+          <include name="testAddToFront"/>
+          <include name="testGet_validIndex"/>
+          <include name="testIndexOf_validElement"/>
+          <include name="testContains_validElement"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testIsEmpty"/>
+          <include name="testRemoveFirst"/>
+          <include name="testSize"/>
+          <include name="testAdd"/>
+          <include name="testAddToRear"/>
+          <include name="testContains_invalidElement"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testAddAfter_validElement"/>
+          <include name="testRemove_validIndex"/>
+        </methods>
+      </class> <!-- Test_13 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

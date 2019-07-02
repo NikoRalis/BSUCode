@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ItrTest_AB_removeA_B">
+        <methods>
+          <include name="testItr_hasNext"/>
+          <include name="testItrNext_remove"/>
+          <include name="testItr_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_remove"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="testItr_remove"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeA_B -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

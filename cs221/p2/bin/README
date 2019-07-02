@@ -1,0 +1,138 @@
+****************
+* Project P2/DDL
+* CS221
+* 11/20/16
+* Nik Morales
+**************** 
+
+OVERVIEW:
+
+This project is an implementation of a Double Linked List with a List iterator.
+
+
+INCLUDED FILES:
+
+ * DLLNode.java - Node class for Double Linked List
+ * IndexedUnorderedList.java - Interface class
+ * ItrTest_A_addToFrontB_BA.java - test class
+ * ItrTest_A_addToRearB_AB.java - test class
+ * ItrTest_A_remove0_emptyList.java - test class
+ * ItrTest_A_removeA_emptyList.java - test class
+ * ItrTest_A_removeFirst_emptyList.java - test class
+ * ItrTest_A_removeLast_emptyList.java - test class
+ * ItrTest_A_set0B_B.java - test class
+ * ItrTest_AB_addToFrontC_CAB.java - test class
+ * ItrTest_AB_addToRearC_ABC.java - test class
+ * ItrTest_AB_remove0_B.java - test class
+ * ItrTest_AB_remove1_A.java - test class
+ * ItrTest_AB_removeA_B.java - test class
+ * ItrTest_AB_removeB_A.java - test class
+ * ItrTest_AB_removeFirst_B.java - test class
+ * ItrTest_AB_removeLast_A.java - test class
+ * ItrTest_ABC_remove1_AC.java - test class
+ * ItrTest_ABC_removeA_BC.java - test class
+ * ItrTest_ABC_removeFirst_BC.java - test class
+ * ItrTest_emptyList_add0A_A.java - test class
+ * ItrTest_emptyList_addA_A.java - test class
+ * ItrTest_emptyList_addToFrontA_A.java - test class
+ * ItrTest_emptyList_addToRearA_A.java - test class
+ * ItrTest_newList.java  - test class
+ * IUDoubleLinkedList.java  - Doubly linked list class
+ * IUListWithListIterator.java - Interface class
+ * ListItrTest_A_addToFrontB_BA.java - test class
+ * ListItrTest_A_addToRearB_AB.java - test class
+ * ListItrTest_A_remove0_emptyList.java - test class
+ * ListItrTest_A_removeA_emptyList.java - test class
+ * ListItrTest_A_removeFirst_emptyList.java - test class
+ * ListItrTest_A_removeLast_emptyList.java - test class
+ * ListItrTest_A_set0B_B.java - test class
+ * ListItrTest_AB_addToFrontC_CAB.java - test class
+ * ListItrTest_AB_addToRearC_ABC.java - test class
+ * ListItrTest_AB_remove0_B.java - test class
+ * ListItrTest_AB_remove1_A.java - test class
+ * ListItrTest_AB_removeA_B.java - test class
+ * ListItrTest_AB_removeB_A.java - test class
+ * ListItrTest_AB_removeFirst_B.java - test class
+ * ListItrTest_AB_removeLast_A.java - test class
+ * ListItrTest_ABC_remove1_AC.java - test class
+ * ListItrTest_ABC_removeA_BC.java - test class
+ * ListItrTest_ABC_removeB_AC.java - test class
+ * ListItrTest_emptyList_add0A_A.java - test class
+ * ListItrTest_emptyList_addA_A.java - test class
+ * ListItrTest_emptyList_addToFrontA_A.java - test class
+ * ListItrTest_emptyList_addToRearA_A.java - test class
+ * ListItrTest_newList.java - test class
+ * Test_A_addToFrontB_BA.java - test class
+ * Test_A_addToRearB_AB.java - test class
+ * Test_A_remove0_emptyList.java - test class
+ * Test_A_removeA_emptyList.java - test class
+ * Test_A_removeFirst_emptyList.java - test class
+ * Test_A_removeLast_emptyList.java - test class
+ * Test_A_set0B_B.java - test class
+ * Test_AB_addToFrontC_CAB.java - test class
+ * Test_AB_addToRearC_ABC.java - test class
+ * Test_AB_remove0_B.java - test class
+ * Test_AB_remove1_A.java - test class
+ * Test_AB_removeA_B.java - test class
+ * Test_AB_removeB_A.java - test class
+ * Test_AB_removeFirst_B.java - test class
+ * Test_AB_removeLast_A.java - test class
+ * Test_ABC_remove1_AC.java - test class
+ * Test_ABC_removeA_BC.java - test class
+ * Test_ABC_removeFirst_BC.java - test class
+ * Test_emptyList_add0A_A.java - test class
+ * Test_emptyList_addA_A.java - test class
+ * Test_emptyList_addToFrontA_A.java - test class
+ * Test_emptyList_addToRearA_A.java - test class
+ * Test_newList.java - test class
+ * TestCase.java - given file for storing test cases
+ * README - this file
+ * iuDoubleLinkedList.xml - xml file for checking linked list
+ * iuDoubleLinkedListItr.xml - xml file for checking iterators
+
+
+COMPILING AND RUNNING:
+
+ From the directory containing all source files, compile the
+ driver class (and all dependencies) with the command:
+ 
+  	$ javac *.java
+
+ After compiling run it with the command:
+
+  	$ java org.testng.TestNG iuDoubleLinkedList.xml 
+  	
+  	OR 
+  	$ java org.testng.TestNG iuDoubleLinkedListItr.xml 
+
+ Console output will then read the results of the test cases.
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+ The main idea of the project is to test a double linked list's functionality
+ through testng. since DoubleLinkedList is what we are testing most of the code
+ is in this class, although there are a lot of test cases most of these are the same
+ just with minor changes given the Scenario. In the IUDoubleLinkedList.java class we 
+ have our auto generated methods from the  IUListWithListIterator.java  interface to manipulate
+ the list e.i: add, remove, get, indexOf, size, etc. This class has the main responsibility 
+ of the program since each test case calls a method in this class. 
+ 
+ As far as design goes I tried to keep the methods all
+ in a logical order. For example I kept all my add methods in an order that would make finding
+ one while debugging easier by ordering them like so: add(T), add(int, T), addToFront(), 
+ addToRear(), AddAfter(). I think there is a lot of room for improvement in this class 
+ and program in general in the iterator section since a lot of my test still failed there.
+
+TESTING:
+
+ To find a problem in my code I'd set a breakpoint on a failing test and step through it
+ until I found the problem. This proved especially difficult to do when eclipse would freeze
+ and crash two or three times a bug. I also found it extremely difficult to try and 
+
+DISCUSSION:
+ 
+ The main methods for this class were very easy to complete and debug since I had most of them finished
+ and I had just finished my Singly linked list, however the iterator methods gave me a lot of trouble.
+ I think I still don't fully understand how to remove the iteration properly.
+
+----------------------------------------------------------------------------

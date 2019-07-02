@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Iterator and ListIterator]">
+  <parameter name="listType" value="doubleLinkedList"/>
+  <test name="IUDoubleLinkedList(failed)">
+    <parameter name="listType" value="doubleLinkedList"/>
+    <classes>
+      <class name="ListItrTest_AB_removeFirst_B">
+        <methods>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItr_next"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_add"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_removeFirst_B -->
+      <class name="ItrTest_AB_addToFrontC_CAB">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_addToFrontC_CAB -->
+      <class name="ItrTest_A_set0B_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_set0B_B -->
+      <class name="ItrTest_ABC_removeA_BC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_removeA_BC -->
+      <class name="ItrTest_AB_remove0_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_remove0_B -->
+      <class name="ItrTest_ABC_remove1_AC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_remove1_AC -->
+      <class name="ItrTest_AB_removeB_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeB_A -->
+      <class name="ItrTest_A_addToFrontB_BA">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToFrontB_BA -->
+      <class name="ListItrTest_AB_addToRearC_ABC">
+        <methods>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_next"/>
+          <include name="testListItrNextNextNextPrevRemove_previous"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_previousIndex"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextPrevRemove_remove"/>
+          <include name="testListItrNextNextNextPrev_previousIndex"/>
+          <include name="testListItrNextNextPrev_previousIndex"/>
+          <include name="testListItrNextNextAdd_add"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextNextNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextNextNextPrevAdd_add"/>
+          <include name="testListItrNextNextPrev_hasPrevious"/>
+          <include name="testListItrNextNextNextPrev_add"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextNextPrev_set"/>
+          <include name="testListItrNextNextNextPrevAdd_previous"/>
+          <include name="testListItrNextNextPrevRemove_next"/>
+          <include name="testListItrNextNextPrevAdd_add"/>
+          <include name="testListItrNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextAdd_previous"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextNextPrevRemove_hasNext"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextNextNextPrevRemove_add"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_next"/>
+          <include name="testListItrNextNextPrev_previous"/>
+          <include name="testListItrNextNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextNextPrev_add"/>
+          <include name="testListItrNextNextNextPrevAdd_next"/>
+          <include name="testListItrNextNextNextPrev_previous"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_hasNext"/>
+          <include name="testListItrNextNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextNextNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextNextNextPrevAdd_set"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_previous"/>
+          <include name="testListItrNextNextPrev_remove"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextNextNextPrev_hasPrevious"/>
+          <include name="testListItrNextNextNextPrev_set"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_previous"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextNextPrevAdd_set"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextNextNextPrev_next"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextNextAdd_next"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextNextNextPrev_remove"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_addToRearC_ABC -->
+      <class name="ItrTest_AB_removeLast_A">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeLast_A -->
+      <class name="ListItrTest_AB_addToFrontC_CAB">
+        <methods>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextNextPrev_set"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextNextNextPrevAdd_previous"/>
+          <include name="testListItrNextNextNextPrevAdd_add"/>
+          <include name="testListItrNextNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrev_hasPrevious"/>
+          <include name="testListItrNextNextNextPrev_add"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextNextPrevRemove_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextNextAdd_hasPrevious"/>
+          <include name="initList"/>
+          <include name="testListItrNextNextPrevAdd_add"/>
+          <include name="testListItrNextNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextNextNextPrevRemove_remove"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_next"/>
+          <include name="testListItrNextNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrev_next"/>
+          <include name="testListItrNextNextNextPrevRemove_previous"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextNextPrevRemove_next"/>
+          <include name="testListItrNextNextAdd_add"/>
+          <include name="testListItrNextNextPrev_previousIndex"/>
+          <include name="testListItrNextNextNextPrev_set"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextNextPrevRemove_previous"/>
+          <include name="testListItrNextNextAdd_next"/>
+          <include name="testListItrNextNextNextPrev_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextNextPrev_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_previous"/>
+          <include name="testListItrNextNextNextPrevAdd_set"/>
+          <include name="testListItrNextNextPrevRemove_remove"/>
+          <include name="testListItrNextNextNextPrev_hasPrevious"/>
+          <include name="testListItrNextNextPrev_remove"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_set"/>
+          <include name="testListItrNextNextNextPrev_remove"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextNextPrevRemove_add"/>
+          <include name="testListItrNextNextNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_next"/>
+          <include name="testListItrNextNextNextPrevRemove_add"/>
+          <include name="testListItrNextNextPrev_previous"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrevRemove_hasNext"/>
+          <include name="testListItrNextNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextNextNextPrev_previous"/>
+          <include name="testListItrNextNextPrev_add"/>
+          <include name="testListItrNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextNextPrevAdd_next"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrAdd_hasNext"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_addToFrontC_CAB -->
+      <class name="ListItrTest_AB_remove1_A">
+        <methods>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextAdd_hasNext"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItr_next"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextAdd_next"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_remove1_A -->
+      <class name="ListItrTest_A_set0B_B">
+        <methods>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrev_add"/>
+        </methods>
+      </class> <!-- ListItrTest_A_set0B_B -->
+      <class name="ItrTest_emptyList_add0A_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_add0A_A -->
+      <class name="ListItrTest_AB_removeB_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItr_hasPrevious"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_removeB_A -->
+      <class name="ListItrTest_emptyList_add0A_A">
+        <methods>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="initList"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrev_add"/>
+        </methods>
+      </class> <!-- ListItrTest_emptyList_add0A_A -->
+      <class name="ItrTest_A_addToRearB_AB">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToRearB_AB -->
+      <class name="ItrTest_emptyList_addA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addA_A -->
+      <class name="ListItrTest_ABC_removeA_BC">
+        <methods>
+          <include name="testListItrNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_next"/>
+          <include name="testListItrNextNextPrev_previous"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_hasNext"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextNextPrev_add"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextNextPrev_remove"/>
+          <include name="testListItrNextNextPrevRemove_previous"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_previous"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_remove"/>
+          <include name="initialize"/>
+          <include name="testListItrNextNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_next"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextAdd_add"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextNextPrev_previousIndex"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrev_hasPrevious"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextNextPrev_set"/>
+          <include name="testListItrNextNextPrevAdd_add"/>
+          <include name="testListItrNextNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+        </methods>
+      </class> <!-- ListItrTest_ABC_removeA_BC -->
+      <class name="ItrTest_ABC_removeFirst_BC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_removeFirst_BC -->
+      <class name="ItrTest_AB_removeA_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeA_B -->
+      <class name="ListItrTest_A_remove0_emptyList">
+        <methods>
+          <include name="testListItrAdd_add"/>
+          <include name="initialize"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItr_hasPrevious"/>
+        </methods>
+      </class> <!-- ListItrTest_A_remove0_emptyList -->
+      <class name="ListItrTest_AB_removeLast_A">
+        <methods>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextAdd_next"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItr_next"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_removeLast_A -->
+      <class name="ListItrTest_emptyList_addToFrontA_A">
+        <methods>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+        </methods>
+      </class> <!-- ListItrTest_emptyList_addToFrontA_A -->
+      <class name="ListItrTest_A_addToRearB_AB">
+        <methods>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextNextPrev_add"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextPrevRemove_hasNext"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_next"/>
+          <include name="testListItrNextNextPrev_previous"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrev_remove"/>
+          <include name="testListItrNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_remove"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_previous"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextNextPrevRemove_previous"/>
+          <include name="testListItrNextNextPrev_previousIndex"/>
+          <include name="testListItrNextNextAdd_add"/>
+          <include name="testListItrNextNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_next"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_previousIndex"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextAdd_previous"/>
+          <include name="testListItrNextNextPrev_set"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextPrev_hasPrevious"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextNextPrevAdd_add"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextPrevAdd_next"/>
+        </methods>
+      </class> <!-- ListItrTest_A_addToRearB_AB -->
+      <class name="ItrTest_newList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_newList -->
+      <class name="ListItrTest_A_removeFirst_emptyList">
+        <methods>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="initialize"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrAdd_hasPrevious"/>
+        </methods>
+      </class> <!-- ListItrTest_A_removeFirst_emptyList -->
+      <class name="ItrTest_A_removeFirst_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeFirst_emptyList -->
+      <class name="ItrTest_AB_addToRearC_ABC">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_addToRearC_ABC -->
+      <class name="ListItrTest_A_removeLast_emptyList">
+        <methods>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="initialize"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_previous"/>
+        </methods>
+      </class> <!-- ListItrTest_A_removeLast_emptyList -->
+      <class name="ListItrTest_ABC_remove1_AC">
+        <methods>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="initialize"/>
+          <include name="testListItrNextNextPrevAdd_previous"/>
+          <include name="testListItrNextNextPrevRemove_previous"/>
+          <include name="testListItrNextNextPrevRemove_remove"/>
+          <include name="testListItrNextNextPrev_remove"/>
+          <include name="testListItrNextNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextNextPrevAdd_set"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextPrev_previous"/>
+          <include name="testListItrNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_next"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextPrevRemove_hasNext"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrev_add"/>
+          <include name="testListItrNextNextPrev_hasNext"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextNextPrev_set"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextNextPrevAdd_add"/>
+          <include name="testListItrNextNextAdd_previous"/>
+          <include name="testListItrNextNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_next"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextNextPrev_next"/>
+          <include name="testListItrNextNextPrev_previousIndex"/>
+          <include name="testListItrNextNextAdd_add"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItr_add"/>
+        </methods>
+      </class> <!-- ListItrTest_ABC_remove1_AC -->
+      <class name="ListItrTest_AB_remove0_B">
+        <methods>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItr_next"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextAdd_add"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_remove0_B -->
+      <class name="ItrTest_A_remove0_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_remove0_emptyList -->
+      <class name="ItrTest_AB_removeFirst_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeFirst_B -->
+      <class name="ListItrTest_A_removeA_emptyList">
+        <methods>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- ListItrTest_A_removeA_emptyList -->
+      <class name="ItrTest_A_removeA_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeA_emptyList -->
+      <class name="ListItrTest_emptyList_addA_A">
+        <methods>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrAdd_hasNext"/>
+        </methods>
+      </class> <!-- ListItrTest_emptyList_addA_A -->
+      <class name="ItrTest_emptyList_addToFrontA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addToFrontA_A -->
+      <class name="ListItrTest_A_addToFrontB_BA">
+        <methods>
+          <include name="testListItrNextNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextNextPrevAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevRemove_next"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrNextNextPrev_next"/>
+          <include name="testListItrNextNextPrev_previousIndex"/>
+          <include name="testListItrNextNextAdd_add"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrNextNextPrev_set"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrev_hasPrevious"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextNextAdd_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextAdd_previous"/>
+          <include name="testListItrNextNextPrevAdd_add"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextNextPrevAdd_set"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_next"/>
+          <include name="testListItrNextNextPrev_previous"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrNextNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrNextNextPrevRemove_hasNext"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextNextPrev_hasNext"/>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextNextPrev_add"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextNextPrevRemove_previous"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItr_hasPrevious"/>
+          <include name="testListItrNextNextPrevRemove_remove"/>
+          <include name="testListItrNextNextPrev_remove"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItrNextNextPrevAdd_previous"/>
+          <include name="testListItrNextNextPrev_nextIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrNextNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+        </methods>
+      </class> <!-- ListItrTest_A_addToFrontB_BA -->
+      <class name="ItrTest_A_removeLast_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeLast_emptyList -->
+      <class name="ItrTest_AB_remove1_A">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_remove1_A -->
+      <class name="ListItrTest_AB_removeA_B">
+        <methods>
+          <include name="testListItrNextPrevRemove_set"/>
+          <include name="testListItrNextPrev_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_previousIndex"/>
+          <include name="testListItrAdd_add"/>
+          <include name="testListItrNextPrevRemove_add"/>
+          <include name="testListItrNextPrevRemove_nextIndex"/>
+          <include name="testListItrAdd_hasNext"/>
+          <include name="testListItrNextPrev_previousIndex"/>
+          <include name="testListItrNextPrevAdd_previous"/>
+          <include name="testListItrNextPrev_add"/>
+          <include name="testListItrNextPrev_nextIndex"/>
+          <include name="testListItrNextPrevAdd_previousIndex"/>
+          <include name="testListItrNextAdd_hasPrevious"/>
+          <include name="testListItrNextPrevRemove_hasNext"/>
+          <include name="testListItrNextPrevAdd_nextIndex"/>
+          <include name="testListItrAdd_nextIndex"/>
+          <include name="testListItr_add"/>
+          <include name="testListItrAdd_previousIndex"/>
+          <include name="testListItrNextAdd_previous"/>
+          <include name="testListItrNextPrevAdd_next"/>
+          <include name="testListItrNextPrev_set"/>
+          <include name="testListItrNextPrev_next"/>
+          <include name="testListItrNextPrevAdd_add"/>
+          <include name="testListItrAdd_previous"/>
+          <include name="initList"/>
+          <include name="testListItrAdd_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_set"/>
+          <include name="testListItrNextPrevRemove_hasPrevious"/>
+          <include name="testListItrNextPrevAdd_hasPrevious"/>
+          <include name="testListItrAdd_next"/>
+          <include name="testListItrNextPrev_remove"/>
+          <include name="testListItr_previous"/>
+          <include name="testListItrNextPrevRemove_remove"/>
+          <include name="testListItrNextPrev_hasNext"/>
+          <include name="testListItrNextAdd_add"/>
+          <include name="testListItrNextPrevAdd_hasNext"/>
+          <include name="testListItrNextPrevAdd_remove"/>
+          <include name="testListItr_hasPrevious"/>
+        </methods>
+      </class> <!-- ListItrTest_AB_removeA_B -->
+    </classes>
+  </test> <!-- IUDoubleLinkedList(failed) -->
+</suite> <!-- Failed suite [Iterator and ListIterator] -->

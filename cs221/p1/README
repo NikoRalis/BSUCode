@@ -1,0 +1,83 @@
+****************
+* p1/Magic Square
+* CS221
+* 7/8/16 
+* Nik Morales
+**************** 
+
+OVERVIEW:
+
+This program determines whether or not a given file's
+matrix is a magic square and also has the option to
+create an magic square in a file as long as it is an
+odd size.
+
+
+INCLUDED FILES:
+
+ * MagicSquare.java - source class
+ * MagicSquareTester.java - driver class
+ * README - this file
+
+
+COMPILING AND RUNNING:
+
+From the directory containing all source files, compile the
+ driver class (and all dependencies) with the command:
+ $ javac MagicSquareTester.java
+
+After compiling there are two command options for running the program.
+The first is:
+
+$ java MagicSquareTester -check ____.txt
+
+(the blank being the name of name of your .txt file containing your matrix.)
+
+The second option is:
+
+$ java MagicSquareTester -create ___.txt #
+
+(The blank being the name of the file you wish to create and the # being the
+odd integer to base the matrix on)
+
+ Console output will give the results after the program finishes.
+
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+ The program has two functions. The first is the ability to check a matrix to
+ see if it is indeed a magic square. the second is to the ability to create a
+ matrix file that is a magic square. This is achieved by having two constructors,
+ one for each function. The main method in the check function is the 'ReadMatrix'
+ method, this method reads in the file from the command line then goes through the
+ matrix to make sure they are all integers. After the program reads the file in it
+ checks to see if it is a magic square by adding the rows, columns, and diagonals.
+ Then the method checks to see if they all equal to each other. Once the program 
+ finally decides whether or not the matrix is a magic square it prints out the results.
+ The create function is achieved by reading in the file name and number the user wishes
+ to use for their matrix. Then the program goes to CreateMagicSquare which I wrote using
+ a pseudo code given to us. After Creating the magic square the program is suppose
+ to write the matrix to a file.
+
+
+TESTING:
+
+I must have ran through the debugger 400 times throughout this project
+trying to find where my program was running into errors so you could say
+my testing took place in the debugger a lot. Also when the debugger wasn't
+giving me what I wanted I would place print lines to see where a method was
+failing even though it shouldn't have been. Both these methods helped me test.
+I wouldn't say my program is idiot proof because running programs through
+the command line isn't the easiest task if you don't have any experience
+with it but other than that I believe it is, the example files given to us to use
+worked perfectly.
+
+DISCUSSION:
+ 
+The main problem I had while writing this program was the create and write method.
+After getting some helped I realized I was trying to write over a local variable causing
+it to be set to 0 instead of the desired size. Another big issue I had with this program was
+the pseudo code, I messed up on a few of the lines causing more problems. However this was easily
+fixed when I walked through it with a tutor. Also I wan't to apologize for this projects lateness
+I thought I could fix all the bugs by myself Friday night after work and turns out I couldn't,
+but lesson learned.

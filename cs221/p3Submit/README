@@ -1,0 +1,75 @@
+****************
+* Project P3/Circuit Tracer
+* CS221
+* 12/10/16
+* Nik Morales
+**************** 
+
+OVERVIEW:
+
+For the project we were tasked with creating a program that would find the best
+possible path through a circuit board. To do this we had to write the code to check
+to see where the tracer could go and actaul move it. We also had to check for a lot
+of expections that the program had the possibility of running into, I decided to
+use System.err.println() after catching the exception to give it an error look with
+out the mess of just throwing the exception.
+
+INCLUDED FILES:
+
+ * CircuitBoard.java - driver class
+ * CircuitTracer.java - Main class
+ * README - This file
+
+ANALYSIS:
+
+Q:What is the order of state evaluation and new state generation for a Storage object that uses a stack compared to one that uses a queue?
+A: In a queue the elements are first in first out, stack is last in first out
+
+Q:How is the total number of search states affected by the choice of stack or queue?
+A: queue will have more search states then a stack because it is looking at every
+posibile state.
+
+Q:What is the Big-Oh runtime for the search algorithm? 
+A:Quadratic 
+
+Q:How is memory use (the number of states in Storage at one time) affected by the 
+choice of underlying structure?
+A:A queue is going to use more memeory because of how many stored states it has.
+
+Q:Does using one of the storage structures find a solution faster than the other? Always?
+A:A queue will be faster since it finds the shortest path due to the radial search pattern it has, in some cases a stack could be faster, like if there circut is smaller but for the most part the queue is going to find it faster.
+
+Q:Does using either of the storage structures guarantee that the first solution found will be an ideal solution?
+A: A queue would give the fastest solution first because of how it produces to 
+states.
+
+COMPILING AND RUNNING:
+
+To compile this program run:
+	$ javac *.java
+
+To run this program as a stack run:
+	$ CircuitTracer -s -c fileName.dat
+
+To run this program as a queue run:
+	$ CircuitTracer -q -c fileName.dat
+
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+For this project exception handleing was a big concept in how to design the circuit board. I found myself designing most of this class
+around each of the exceptions that an invalid circuits might run into. The program is designed to read in a file and check if it is a valid
+circuit and then trace a path from the start poin to the end point and find the best solutions. 
+
+TESTING:
+Most of my testing and debugging came from getting exceptions thrown when they shouldn't have been. This trial and error method made it easier to
+have all the exceptions I needed to have in the end.
+
+DISCUSSION:
+For the most part this program wasn't that heavy of a coding project, most of the time spent in this program came from figuring out what needed to be done.
+Since we were given so much code to begin with I spent a lot of time looking though what the project was already doing and how I could make it work for
+what I needed to do. I think this was a very good learning project however I think it would have been a lot better to do during the first half of the class when we
+went over polymorphism and excetion handeling, also having 121 material fresh in our minds would have been a lot more benifitial instead of having list methods and
+manipulation fresh in our minds. 
+
+----------------------------------------------------------------------------

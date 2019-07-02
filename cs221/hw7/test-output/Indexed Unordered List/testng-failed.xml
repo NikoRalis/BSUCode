@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Indexed Unordered List]">
+  <parameter name="listType" value="singleLinkedList"/>
+  <test name="IUSingleList(failed)">
+    <parameter name="listType" value="singleLinkedList"/>
+    <classes>
+      <class name="Test_A_set0B_B">
+        <methods>
+          <include name="initialize"/>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test_A_set0B_B -->
+      <class name="ItrTest_A_addToRearB_AB">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToRearB_AB -->
+      <class name="ItrTest_A_set0B_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_set0B_B -->
+      <class name="ItrTest_A_remove0_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_remove0_emptyList -->
+      <class name="ItrTest_A_removeLast_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeLast_emptyList -->
+      <class name="Test_ABC_remove1_AC">
+        <methods>
+          <include name="initialize"/>
+          <include name="testAddAfter_validElement" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Test_ABC_remove1_AC -->
+      <class name="ItrTest_A_removeA_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeA_emptyList -->
+      <class name="Test_AB_removeA_B">
+        <methods>
+          <include name="initialize"/>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test_AB_removeA_B -->
+      <class name="ItrTest_AB_removeFirst_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeFirst_B -->
+      <class name="ItrTest_A_removeFirst_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeFirst_emptyList -->
+      <class name="Test_emptyList_addToFrontA_A">
+        <methods>
+          <include name="initialize"/>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test_emptyList_addToFrontA_A -->
+      <class name="ItrTest_AB_removeLast_A">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeLast_A -->
+      <class name="Test_AB_removeFirst_B">
+        <methods>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_AB_removeFirst_B -->
+      <class name="ItrTest_AB_removeA_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeA_B -->
+      <class name="Test_A_removeFirst_emptyList">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_A_removeFirst_emptyList -->
+      <class name="ItrTest_emptyList_add0A_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_add0A_A -->
+      <class name="Test_A_removeLast_emptyList">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_A_removeLast_emptyList -->
+      <class name="Test_A_addToRearB_AB">
+        <methods>
+          <include name="testAddAfter_validElement" invocation-numbers="0 1"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_A_addToRearB_AB -->
+      <class name="ItrTest_emptyList_addToFrontA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addToFrontA_A -->
+      <class name="ItrTest_ABC_remove1_AC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_remove1_AC -->
+      <class name="ItrTest_emptyList_addToRearA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addToRearA_A -->
+      <class name="Test_A_removeA_emptyList">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_A_removeA_emptyList -->
+      <class name="Test_AB_removeLast_A">
+        <methods>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_AB_removeLast_A -->
+      <class name="Test_emptyList_addToRearA_A">
+        <methods>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_emptyList_addToRearA_A -->
+      <class name="ItrTest_emptyList_addA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addA_A -->
+      <class name="Test_A_addToFrontB_BA">
+        <methods>
+          <include name="testAddAfter_validElement" invocation-numbers="0 1"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_A_addToFrontB_BA -->
+      <class name="ItrTest_A_addToFrontB_BA">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToFrontB_BA -->
+      <class name="Test_emptyList_addA_A">
+        <methods>
+          <include name="initialize"/>
+          <include name="testAddAfter_validElement" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test_emptyList_addA_A -->
+      <class name="Test_newList">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_newList -->
+      <class name="Test_A_remove0_emptyList">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Test_A_remove0_emptyList -->
+      <class name="ItrTest_newList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_newList -->
+    </classes>
+  </test> <!-- IUSingleList(failed) -->
+</suite> <!-- Failed suite [Indexed Unordered List] -->

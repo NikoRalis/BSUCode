@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Iterator]">
+  <parameter name="listType" value="singleLinkedList"/>
+  <test name="IUSingleList(failed)">
+    <parameter name="listType" value="singleLinkedList"/>
+    <classes>
+      <class name="ItrTest_emptyList_addToRearA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addToRearA_A -->
+      <class name="ItrTest_A_set0B_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_set0B_B -->
+      <class name="ItrTest_ABC_removeA_BC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_removeA_BC -->
+      <class name="ItrTest_AB_remove0_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_remove0_B -->
+      <class name="ItrTest_ABC_remove1_AC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_remove1_AC -->
+      <class name="ItrTest_AB_removeB_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeB_A -->
+      <class name="ItrTest_newList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_newList -->
+      <class name="ItrTest_A_addToFrontB_BA">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToFrontB_BA -->
+      <class name="ItrTest_A_removeFirst_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeFirst_emptyList -->
+      <class name="ItrTest_AB_removeLast_A">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeLast_A -->
+      <class name="ItrTest_emptyList_add0A_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_add0A_A -->
+      <class name="ItrTest_A_remove0_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_remove0_emptyList -->
+      <class name="ItrTest_AB_removeFirst_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeFirst_B -->
+      <class name="ItrTest_A_addToRearB_AB">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToRearB_AB -->
+      <class name="ItrTest_A_removeA_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeA_emptyList -->
+      <class name="ItrTest_emptyList_addToFrontA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addToFrontA_A -->
+      <class name="ItrTest_emptyList_addA_A">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_emptyList_addA_A -->
+      <class name="ItrTest_AB_removeA_B">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_removeA_B -->
+      <class name="ItrTest_ABC_removeFirst_BC">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_removeFirst_BC -->
+      <class name="ItrTest_A_removeLast_emptyList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_A_removeLast_emptyList -->
+      <class name="ItrTest_AB_remove1_A">
+        <methods>
+          <include name="testItrNext_next"/>
+          <include name="testItrNextRemove_next"/>
+          <include name="testItrNextRemove_hasNext"/>
+          <include name="testItrNext_hasNext"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_AB_remove1_A -->
+    </classes>
+  </test> <!-- IUSingleList(failed) -->
+</suite> <!-- Failed suite [Iterator] -->

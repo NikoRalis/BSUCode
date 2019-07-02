@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Iterator]">
+  <parameter name="listType" value="arrayList"/>
+  <test name="IUArrayList(failed)">
+    <parameter name="listType" value="arrayList"/>
+    <classes>
+      <class name="ItrTest_ABC_remove1_AC">
+        <methods>
+          <include name="testItrNextRemove_next"/>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_ABC_remove1_AC -->
+      <class name="ItrTest_A_addToFrontB_BA">
+        <methods>
+          <include name="initList"/>
+          <include name="testItrNextRemove_next"/>
+        </methods>
+      </class> <!-- ItrTest_A_addToFrontB_BA -->
+      <class name="ItrTest_newList">
+        <methods>
+          <include name="initList"/>
+        </methods>
+      </class> <!-- ItrTest_newList -->
+    </classes>
+  </test> <!-- IUArrayList(failed) -->
+</suite> <!-- Failed suite [Iterator] -->

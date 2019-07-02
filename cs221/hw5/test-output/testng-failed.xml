@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [List Testing 2]">
+  <parameter name="listType" value="badList"/>
+  <test name="Bad List(failed)">
+    <parameter name="listType" value="badList"/>
+    <classes>
+      <class name="Test_A_set0B_B">
+        <methods>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testFirst"/>
+          <include name="testRemove_validIndex" invocation-numbers="0"/>
+          <include name="testGet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testSet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testRemoveFirst"/>
+          <include name="testRemove_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testContains_validElement" invocation-numbers="0"/>
+          <include name="testLast"/>
+          <include name="testSize"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testRemove_validElement" invocation-numbers="0"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testGet_validIndex" invocation-numbers="0"/>
+          <include name="testRemoveLast"/>
+        </methods>
+      </class> <!-- Test_A_set0B_B -->
+      <class name="Test_A_remove0_emptyList">
+        <methods>
+          <include name="testSet"/>
+          <include name="testRemoveLast"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testLast"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testIsEmpty"/>
+          <include name="testRemove_invalidIndex"/>
+          <include name="testSize"/>
+          <include name="testGet"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testRemoveFirst"/>
+          <include name="testFirst"/>
+        </methods>
+      </class> <!-- Test_A_remove0_emptyList -->
+      <class name="Test_AB_removeA_B">
+        <methods>
+          <include name="testSize"/>
+          <include name="testSet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testRemoveFirst"/>
+          <include name="testGet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testRemove_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testFirst"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testRemove_validIndex" invocation-numbers="0"/>
+          <include name="testLast"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testGet_validIndex" invocation-numbers="0"/>
+          <include name="testRemoveLast"/>
+          <include name="testRemove_validElement" invocation-numbers="0"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testContains_validElement" invocation-numbers="0"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+        </methods>
+      </class> <!-- Test_AB_removeA_B -->
+      <class name="Test_A_addToRearB_AB">
+        <methods>
+          <include name="testGet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testSize"/>
+          <include name="testRemoveFirst"/>
+          <include name="testSet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testRemoveLast"/>
+          <include name="testRemove_validIndex" invocation-numbers="0 1"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testRemove_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testFirst"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testGet_validIndex" invocation-numbers="0 1"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testContains_validElement" invocation-numbers="0 1"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testRemove_validElement" invocation-numbers="0 1"/>
+          <include name="testIndexOf_validElement" invocation-numbers="1"/>
+          <include name="testLast"/>
+        </methods>
+      </class> <!-- Test_A_addToRearB_AB -->
+      <class name="Test_A_removeLast_emptyList">
+        <methods>
+          <include name="testLast"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testRemoveLast"/>
+          <include name="testSet"/>
+          <include name="testFirst"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testSize"/>
+          <include name="testIsEmpty"/>
+          <include name="testRemove_invalidIndex"/>
+          <include name="testGet"/>
+          <include name="testRemoveFirst"/>
+        </methods>
+      </class> <!-- Test_A_removeLast_emptyList -->
+      <class name="Test_A_addToFrontB_BA">
+        <methods>
+          <include name="testRemoveLast"/>
+          <include name="testGet_validIndex" invocation-numbers="0 1"/>
+          <include name="testContains_validElement" invocation-numbers="0 1"/>
+          <include name="testIndexOf_validElement" invocation-numbers="1"/>
+          <include name="testLast"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testRemove_validElement" invocation-numbers="0 1"/>
+          <include name="testGet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testSet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testRemoveFirst"/>
+          <include name="testRemove_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testSize"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testFirst"/>
+          <include name="testRemove_validIndex" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Test_A_addToFrontB_BA -->
+      <class name="Test_A_removeA_emptyList">
+        <methods>
+          <include name="testSet"/>
+          <include name="testRemoveLast"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIsEmpty"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testLast"/>
+          <include name="testRemoveFirst"/>
+          <include name="testRemove_invalidIndex"/>
+          <include name="testSize"/>
+          <include name="testGet"/>
+          <include name="testFirst"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testRemove_invalidElement"/>
+        </methods>
+      </class> <!-- Test_A_removeA_emptyList -->
+      <class name="Test_A_removeFirst_emptyList">
+        <methods>
+          <include name="testFirst"/>
+          <include name="testRemoveFirst"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testGet"/>
+          <include name="testSize"/>
+          <include name="testRemove_invalidIndex"/>
+          <include name="testIsEmpty"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testLast"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testRemoveLast"/>
+          <include name="testSet"/>
+        </methods>
+      </class> <!-- Test_A_removeFirst_emptyList -->
+      <class name="Test_AB_removeFirst_B">
+        <methods>
+          <include name="testRemove_validIndex" invocation-numbers="0"/>
+          <include name="testRemove_invalidElement"/>
+          <include name="testGet_validIndex" invocation-numbers="0"/>
+          <include name="initialize"/>
+          <include name="initialize"/>
+          <include name="testFirst"/>
+          <include name="testGet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testSize"/>
+          <include name="testRemoveFirst"/>
+          <include name="testRemove_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testSet_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testAddAfter_invalidElement"/>
+          <include name="testContains_validElement" invocation-numbers="0"/>
+          <include name="testLast"/>
+          <include name="testAdd_invalidIndex" invocation-numbers="0 1"/>
+          <include name="testIndexOf_invalidElement"/>
+          <include name="testRemove_validElement" invocation-numbers="0"/>
+          <include name="testRemoveLast"/>
+        </methods>
+      </class> <!-- Test_AB_removeFirst_B -->
+    </classes>
+  </test> <!-- Bad List(failed) -->
+</suite> <!-- Failed suite [List Testing 2] -->

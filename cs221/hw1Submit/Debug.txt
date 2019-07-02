@@ -1,0 +1,8 @@
+
+Bug 1
+The first break point I set was in TestSimpleSet_1 oh the testIsEmpty method, running through debugger I noticed in ArraySet that the isEmpty method checked if the rear was greater than 0
+so I changed it to check if it was equal to zero and the test passed. However more tests failed in doing this.
+
+Bug 2
+While looking through each method I noticed that in ArraySet the add method wasn't increasing rear adding a rear++; after line 59 led to the rest of my tests passing. 
+I was under the impression that there were three bugs in Array Set but with this eliminating failures and skips I decided to not mess with it any more.

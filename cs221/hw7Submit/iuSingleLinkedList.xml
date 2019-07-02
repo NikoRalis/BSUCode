@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Indexed Unordered List">
+
+  <test name="IUSingleList">   
+  	<parameter name="listType" value="singleLinkedList"/> 
+    <classes>     
+      <class name="Test_newList"/>
+      <class name="Test_emptyList_addToFrontA_A"/>
+      <class name="Test_emptyList_addToRearA_A"/>
+      <class name="Test_emptyList_addA_A"/>
+      <class name="Test_A_removeFirst_emptyList"/>
+      <class name="Test_A_removeLast_emptyList"/>
+      <class name="Test_A_removeA_emptyList"/>
+	  <class name="Test_A_addToFrontB_BA"/>
+	  <class name="Test_A_addToRearB_AB"/>
+	  <class name="Test_A_removeA_emptyList"/>
+	  <class name="Test_A_remove0_emptyList"/>
+	  <class name="Test_A_set0B_B"/>
+	  <class name="Test_AB_removeFirst_B"/>
+	  <class name="Test_AB_removeLast_A"/>
+	  <class name="Test_AB_removeB_A"/>
+	  <class name="Test_AB_removeA_B"/>
+	  <class name="Test_AB_remove0_B"/>
+	  <class name="Test_AB_remove1_A"/>
+	  <class name="Test_ABC_remove1_AC"/>
+	  <class name="Test_ABC_removeA_BC"/>
+	  <class name="Test_ABC_removeFirst_BC"/>
+	  <class name="Test_20"/>
+	  <class name="Test_21"/>	
+	    
+    </classes>
+  </test> <!-- IUSingleLinkedList -->
+
+</suite> <!-- Indexed Unordered List -->

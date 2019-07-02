@@ -1,0 +1,33 @@
+****************
+* Project P3/Circuit Tracer
+* CS221
+* 12/10/16
+* Nik Morales
+**************** 
+
+OVERVIEW:
+
+INCLUDED FILES:
+
+ANALYSIS:
+
+What is the order of state evaluation and new state generation for a Storage object that uses a 
+stack compared to one that uses a queue?
+
+
+How is the total number of search states affected by the choice of stack or queue?
+What is the Big-Oh runtime for the search algorithm? Quadratic 
+How is memory use (the number of states in Storage at one time) affected by the choice of underlying structure?
+Does using one of the storage structures find a solution faster than the other? Always?
+Does using either of the storage structures guarantee that the first solution found will be an ideal solution?
+
+COMPILING AND RUNNING:
+
+PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+
+
+TESTING:
+
+DISCUSSION:
+
+----------------------------------------------------------------------------
