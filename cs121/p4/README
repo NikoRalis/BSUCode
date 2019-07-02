@@ -1,0 +1,44 @@
+*******************************************************************************
+* Project: p4
+* Class:   CS 121-003
+* Date:    4/8/15
+* Name:    Nik Morales
+********************************************************************************
+
+OVERVIEW:
+
+This program reads in a text file and pulls statistics for it to print it them
+out. 
+
+
+INCLUDED FILES:
+
+ProcessText.java
+TextStatsistics.java
+TextStatisticsInterface.java
+TextStatisticsTest.java
+README
+
+BUILDING AND RUNNING:
+
+from the directory containing the source files compile the program and run it
+with the text file you want.
+ 
+PROGRAM DESIGN:
+
+ ProcessText checks for an error. TextStatisticsInterface gets all of the information.
+ TextStatistics does all the heavy lifting; it gets the character count, word count,
+ line count, letter count, word length, and the average word length. This class also
+ formats everything to fit in a nice readable table.
+ 
+
+PROGRAM DEVELOPMENT AND TESTING DISCUSSION:
+
+ This program took me a lot longer than previous projects. I think this is mainly
+ due to my lack of understanding in arrays. After struggling through it with some
+ tutors I think I finally understand everything. The only thing I see that might 
+ be a problem with my program is the formating on the length and frequency table.
+ I liked this project despite the hard time I had my only problem with it was
+ the wording is some parts of the instructions.
+ 
+ 

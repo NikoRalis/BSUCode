@@ -1,0 +1,43 @@
+*******************************************************************************
+* Project: p3
+* Class:   CS 121-3
+* Date:    3-18-15
+* Name:    Nik Morales
+********************************************************************************
+
+OVERVIEW:
+
+This project will create a random walk on a grid after prompting you for the grid size and seed.
+The RandomWalkTest is meant to make sure RandomWalk is doing what it should be doing.
+
+
+INCLUDED FILES:
+
+RandomWalk.java
+RandomWalkTest.java
+GridMap.java
+RandomWalkGUI.java
+README
+
+BUILDING AND RUNNING:
+
+When running RandomWalkGUI from the Konsole type  java RandomWalkGUI (your desired grid size  & your desired seed)
+ 
+
+PROGRAM DESIGN:
+
+The design of the RandomWalk class is to set all the variables and to create the steps and walk.
+In this class there is a check to make sure the walk doesn't go off the grid and it doesn't continue after it reaches the end.
+
+
+PROGRAM DEVELOPMENT AND TESTING DISCUSSION:
+
+ In this project I tried to take each step slowly and make sure I totally understood what it was doing before I moved on. 
+ My main issue in this project was getting and understand how to stop the stepping from going off the grid and in the right
+ direction. I also got caught up on the while look in the RandomWalkTest class I was trying to set it up like we did with the dice
+ roller lab but eventually got some help and figured it out. The only known issue I have (if it is an issue) is if I enter an invalid grid size
+ it doesn't tell me there is an error until after prompting me for the seed. I liked this project a lot all of the instructions were straight forward
+ but you still had to think for yourself. Something that finally clicked while doing this project was the need for this.grid size, I didn't fully
+ comprehend why I needed it until Jake used his banana example with it.
+ 
+ 

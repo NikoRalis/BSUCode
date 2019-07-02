@@ -1,0 +1,28 @@
+******************************************************************************************************************
+* Project: P1
+* Class: CS 121-003
+* Date: 2/9/15
+* Name: Nik Morales
+******************************************************************************************************************
+
+OVERVIEW:
+
+This graphic program animates a van traveling across the road with an android character yelling at the car to 
+hurry up.
+
+INCLUDED FILES:
+
+TrafficAnimation.java
+README
+
+PROGRAM DESIGN:
+
+This program is very straight forward and will start running once you press run. It neededs no other commands.
+
+PROGRAM DEVELOPMENT AND TESTING DISCUSSION:
+
+This project was a lot of fun however I did struggle throughout parts of it. My main problem I kept running into 
+was the scaling of all the shapes. After multiple attempts and tutors' help I was able to figure it out and get 
+all my shapes to act like I wanted them to. I wanted to use an image since my program is fairly bland and this 
+proved to be another hurdle. Jake helped me figure out where I need to have the file and how to import it. I came 
+in three times after my lab and worked on this project.

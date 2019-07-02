@@ -1,0 +1,53 @@
+*******************************************************************************
+* Project: p5
+* Class:   CS 121-3
+* Date:    4-29-15
+* Name:    Nik Morales
+********************************************************************************
+
+OVERVIEW:
+
+This project will create a random walk on a grid based on the number you enter for 
+the grid size.If no grid size is entered the program will default to ten. This walk 
+will create a safe path that the randomly spawned mines will not be able to spawn on.
+If you click on a mine it will turn black and a life will be lost. If no mines are 
+near by the box will be green, if there's one yellow, two orange, or three red. 
+
+INCLUDED FILES:
+
+MineWalker.java
+MineWalkerPanel.java
+RandomWalk.java
+README
+
+BUILDING AND RUNNING:
+
+Building this was one of the most challenging things I've done this year, 
+but it was also one of the most fun things I've done. The MineWalker java class 
+is what runs it all but most of my work was in the MineWalkerPanel class. If you want to
+play the game compile and the the MineWalker class, the games gui should pop up and allow
+you to play. I Decided to make my game harder than most by not allowing the player to play 
+when the show mines and show path is pressed. To play after pressing these buttons you have
+to start a new game not allowing you to cheat. Also to make the game more of my game
+I have the prompts fairly sarcastic and a little rude because I find it funny, 
+I apologize in advance if you do not find it funny.
+ 
+
+PROGRAM DESIGN:
+
+The design of the RandomWalk class is to set all the variables and to create the steps and walk.
+In this class there is a check to make sure the walk doesn't go off the grid and it doesn't 
+continue after it reaches the end. using the RandomWalk MineWalkerPanel creates a safe path 
+where the randomly created mines cannot land. This insures that there is a way to win. 
+I found it easiest to create a methods for each action that needed to be performed so I could call it later. 
+
+PROGRAM DEVELOPMENT AND TESTING DISCUSSION:
+This project took me numerous hours in the tutoring lab to complete. I tried to do it on my PC
+but I kept having problems with MobaXTerm and Eclipse crashing my computer. This wasn't an issue
+since I live on campus but it did set me back a few hours cause I lost work when Eclipse would
+freak out. Besides the time the the only other set back I had was the logic involving the color
+changing according to the mines, When the current point was close to an edge the method I created to check
+the mines wasn't working. I was able to fix this with Catherine's help after a while and move on.
+Of course this wasn't my only problem but It was the biggest one. I also couldn't get the timer to work.
+
+Thanks for a great year Marissa!

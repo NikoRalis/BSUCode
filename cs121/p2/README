@@ -1,0 +1,42 @@
+*******************************************************************************
+* Project: p2
+* Class:   CS 121 - 003
+* Date:    2/24/15
+* Name:    Nik Morales
+********************************************************************************
+
+OVERVIEW:
+
+This program prompts the user for three song's information stores it them finds the average play
+time. Then the song finds the song closest to 4 mins. lastly the program builds a play list
+from shortest to longest and prints them in oder.
+
+
+INCLUDED FILES:
+
+PlayList.java
+Song.java
+input.txt
+README
+
+
+BUILDING AND RUNNING:
+
+From the directory containing the source files run PlayList.java and enter in song information.
+ 
+
+PROGRAM DESIGN:
+
+I set most of my variables at the top then start the code asking for and storing the information
+for the songs. After this the program will calculated the average play time of the songs them use
+those calculations to print out the average. To determine the song closest to 4 minutes I used if
+statements. Then to determine the first second and last song I had to use if, else if and else 
+statements. finally I set up the table and had it pull from all the information above.
+
+PROGRAM DEVELOPMENT AND TESTING DISCUSSION:
+
+The biggest challenges I faced in the project was the parsing mins and secs and the if statements
+in finding the first second and last song for least to greatest. After saying it out loud and
+trying to think logically I was able to figure it out. Up until now if statements didn't really
+make sense to me but after having Shelby help me think about it, it finally clicked.
+
