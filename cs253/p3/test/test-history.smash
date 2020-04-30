@@ -1,0 +1,15 @@
+[0] ls
+[1] -l
+[2] -a
+/home
+/home
+[0] history
+[0] touch
+[1] hello.txt
+[0] cat
+[1] hello.txt
+[0] clear
+[0] ls
+[0] time
+/home
+[0] history

@@ -1,0 +1,13 @@
+ls -l -a
+cd /home
+pwd
+history
+touch hello.txt
+cat hello.txt
+cd
+clear
+ls
+time
+pwd
+history
+exit

@@ -1,0 +1,26 @@
+5,9c5,6
+< [0] pwd
+< 0 ls
+< 1 cd
+< 2 pwd
+< 3 history
+---
+> /home
+> [0] history
+14d10
+< /home/marissa
+18,28c14,15
+< [0] pwd
+< 0 pwd
+< 1 history
+< 2 pwd
+< 3 history
+< 4 touch
+< 5 cat
+< 6 cd
+< 7 clear
+< 8 ls
+< 9 time
+---
+> /home
+> [0] history
