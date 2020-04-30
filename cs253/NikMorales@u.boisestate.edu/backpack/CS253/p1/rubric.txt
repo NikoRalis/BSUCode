@@ -1,0 +1,42 @@
+Grade: 38/40
+=================================================
+Quality
+- Passing all grader scripts (25 points): 25/25
+  Reflection:
+		grader said I'm all good!
+		However I did modify the .c files
+		but I changed them back so I didn't
+		take any points off.
+
+- Makefile is well written (10 points): 10/10
+  Reflection:
+		I used depenencies
+
+- README.md: 5/5
+  Reflection:
+		I didn't have a lot in here but
+		I did it according to the template.
+
+=========================
+Instructor Feedback
+=========================
+Submitted Files
+-------------------------
+.
+├── backpack.sh
+├── f1.c
+├── f2.c
+├── f3.c
+├── main.c
+├── Makefile
+├── myHeader.h
+├── README.md
+└── rubric.txt
+
+0 directories, 9 files
+Test Results
+-------------------------
+P1: PASS
+
+(-1 point) Reflection is bare minimum, but should include more specifics on why you decided to give yourself full points.
+(-1 point) Missing myHeader.h in dependency list.

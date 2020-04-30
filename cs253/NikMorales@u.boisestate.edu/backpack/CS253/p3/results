@@ -1,0 +1,6 @@
+P2: FAIL test/test-cd. See test/test-cd.diff for differences.
+P2: FAIL test/test-cd. See test/test-cd.diff for differences.
+P2: FAIL test/test-empty. Unsuccessful return value (139).
+P2: FAIL test/test-empty. Unsuccessful return value (139).
+P2: FAIL test/test-empty. Unsuccessful return value (139).
+P2: FAIL test/test-history. See test/test-history.diff for differences.
