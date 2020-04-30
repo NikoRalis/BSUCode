@@ -1,0 +1,37 @@
+Grade: 70/70
+
+(-5 pts) Inconsistent indentation makes code difficult to read.
+(-15 pts) Reflection not done in class. Very brief.
+
+=================================================
+- Passing all grader scripts (50 points): 50/50
+
+  Reflection:
+	Does the grader check everything? yes.
+	What doesn't it check? NA
+	How did you test things before running the grader? I ran the grader to see why it was failing then used that to check my code.
+
+- Code quality (10 points): 10/10
+	The programmer makes consistent use of indentation
+	The programmer makes consistent use of braces
+	#include directives are listed at the top of the file
+	#define directives are at the top of the file, after includes
+	The programmer makes use of comments where necessary
+	There are no unnecessary lines of code (e.g. commented, unused code)
+	No global variables are used
+	The names of constants defined by #define are in all CAPITAL letters
+	Variable names are descriptive
+	Variable name casing is consistent (e.g. camelCase or underscore_separation)
+	Variables are all initialized before use
+
+  Reflection:
+
+- README.md: 10/10
+	Follows the required format.
+	Is descriptive about how to compile and use.
+
+  Reflection:
+
+The main problem I had doing this project is I really wanted to have
+a PWD function, however the grader wouldn't pass with it in so I commented it
+out for future use. Also sorry I forgot to do this earlier.

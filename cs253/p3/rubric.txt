@@ -1,0 +1,25 @@
+Grade: 65/70
+=================================================
+- Functionality: 15/20
+  + Passing all prior grader scripts (nothing broken)
+  + Passing valgrind with clean bill of health
+  + History command works as specified in your README
+
+  Reflection:
+
+- Code quality: 20/20
+  + Code is well written and well formatted as outlined in peer reviews/class.
+
+  Reflection:
+
+- README.md: 10/10
+  + Follows template, correct grammar/spelling, describes how your history works.
+  + Sources Uses properly filled out.
+
+  Reflection:
+
+- Reflection: 20/20
+  + Well written and properly committed.
+
+The main problem I had with P3 was my history filling up too fast and or getting a segfault
+afterit was filled. I was able to fix this by changing my set up and simplifying it a bit.
