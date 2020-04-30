@@ -1,0 +1,5 @@
+log 0: Wed Apr 26 14:02:26 2017 -- Error: shutdown 2
+log 1: Wed Apr 26 14:02:26 2017 -- Error: shutdown 3
+log 2: Wed Apr 26 14:02:28 2017 -- Final Log
+log 3: Wed Apr 26 14:02:26 2017 -- Error: failed 6
+log 4: Wed Apr 26 14:02:26 2017 -- Error: shutdown 1

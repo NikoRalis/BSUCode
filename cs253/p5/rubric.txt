@@ -1,0 +1,42 @@
+Developer Name:Nik Morales
+Peer Grader Name:Rachael Hogan
+Peer Grade:  50/50
+Self Grade:  50/50
+Final Grade: XX/70
+=================================================
+- Functionality: 20/20
+  + (5 pts) Passes backpack script. 
+  + (5 pts) Last 5 log messages contained in ring.log.
+  + (5 pts) alarm is reset is signal handler to ensure it works second time through.
+  + (5 pts) Uses dump flag and calls dump_buffer in log_msg.
+
+- Code quality: 20/20
+  + (5 pts) Consistent indendation.
+  + (5 pts) No compiler warnings or errors.
+  + (3 pts) Uses alarm_interval and log_name variables defined in ring.h.
+  + (2 pts) dump flag is part of buff struct or at least a static variable if global.
+  + (5 pts) No extra print statements or comments. Clean code.
+
+- README.md: 10/10
+  + (4 pts) Follows template, correct grammar/spelling.
+  + (4 pts) Describes how ring buffer works and how to compile/link/run library and test program.
+  + (2 pts) Sources Used properly filled out.
+
+- Reflection: XX/20
+  + Well written and properly committed.
+
+Self Reflection (Discussion from README)
+=================================================
+
+
+   I personally really enjoyed this project because it seemed like an example of what we will be doing in the real world. Going in I didn't know what everything
+   was doing so I started to pencil down what I need to do and the general flow of the progam. From there I started following the provided code and seeing where
+   functions were and how to call them. After I had a general idea of how the program worked and what I needed to add I started adding in my alarm function and
+   fixing the dump_log function. 
+
+   I think from the beginning I had the right idea of how the program was working and what I needed to do but I wasn't sure how to properly use the alarm signal.
+   Originally I was calling alarm(alarm_interval) in my log_msg() function, what I didn't realize is that this was reseting the alarm each time, not ticking it down
+   like I thought. Once 'alarm(alarm_interval)' and 'signal(SIGALRM, onalarm)' were moved into my init_buffer() function my project worked. After this was solved
+   I only had to add an additional log msg to the buff so I could pass the grader.
+
+   Funny enough for the second check off I had added the functionality to write to a file before I had even got the program working.

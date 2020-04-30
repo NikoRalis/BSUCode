@@ -1,0 +1,7 @@
+P6: FAIL - Did not create the correct number of entries in the log file
+P6: PASS
+P6: PASS
+P6: PASS
+P6: PASS
+P6: PASS
+P6: PASS
